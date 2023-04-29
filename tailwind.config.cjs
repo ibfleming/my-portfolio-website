@@ -7,6 +7,7 @@ export default {
          fontFamily: {
             Ysabeau: ['Ysabeau', 'sans-serif'],
             Slabo: ['Slabo\\ 27px', 'serif'],
+            Montserrat: ['Montserrat', 'sans-serif'],
          },
       },
    },
