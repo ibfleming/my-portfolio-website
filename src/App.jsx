@@ -7,7 +7,7 @@ function App() {
       <>
          <Intro />
          <Portfolio />
-         <Timeline />
+         {/* <Timeline /> */}
       </>
    );
 }

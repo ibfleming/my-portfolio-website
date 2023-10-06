@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
 function PortfolioItem({ title, imgUrl, stack, link }) {
    return (
-      <div className='border-2 border-stone-300 rounded-md overflow-hidden'>
+      <div className='border-2 border-stone-300 bg-stone-800 bg-opacity-20 rounded-md overflow-hidden'>
          <a href={link}>
-            <img
+            {/* <img
                src={imgUrl}
                alt='portfolio'
                className='w-full h-36 object-cover cursor-pointer'
-            />
+   /> */}
             <div className='w-full p-4'>
                <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold text-stone-300'>
                   {title}

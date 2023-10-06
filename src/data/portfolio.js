@@ -1,12 +1,12 @@
 export default [
    {
-      title: 'Capstone Design',
+      title: 'Senior Capstone Design',
       imgUrl: 'https://picsum.photos/200/200',
       stack: ['Arduino', 'C', 'Java', 'Android Studio'],
       link: '#',
    },
    {
-      title: 'C- Compiler',
+      title: 'My Compiler (C-)',
       imgUrl: 'https://picsum.photos/200/200',
       stack: ['Yacc', 'Bison', 'C', 'C++'],
       link: '#',
@@ -18,21 +18,39 @@ export default [
       link: '#',
    },
    {
-      title: 'THE BESTBUY CONS',
+      title: '"THE BESTBUY CONS"',
       imgUrl: 'https://picsum.photos/200/200',
       stack: ['Django', 'Python', 'SQLite3'],
       link: '#',
    },
    {
-      title: 'ML Project',
+      title: 'My M.L. Project',
       imgUrl: 'https://picsum.photos/200/200',
       stack: ['Machine Learning', 'Python'],
       link: '#',
    },
    {
-      title: 'My Own Unix Shell',
+      title: 'My Unix Shell',
       imgUrl: 'https://picsum.photos/200/200',
       stack: ['C', 'Linux'],
+      link: '#',
+   },
+   {
+      title: 'The Ancient Undead',
+      imgUrl: 'https://picsum.photos/200/200',
+      stack: ['Unreal Engine 5', 'C#', 'Blueprints'],
+      link: '#',
+   },
+   {
+      title: 'FSVT Android App',
+      imgUrl: 'https://picsum.photos/200/200',
+      stack: ['Kotlin', 'Java', 'Android Studio'],
+      link: '#',
+   },
+   {
+      title: 'myEssentials Plugin',
+      imgUrl: 'https://picsum.photos/200/200',
+      stack: ['Minecraft', 'Spigot API', 'Java'],
       link: '#',
    },
 ];
