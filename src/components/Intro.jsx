@@ -10,15 +10,17 @@ function Intro() {
                alt='Portfolio Photo'
                className='rounded-full h-48 w-48 mt-10 mr-8 border-4 border-stone-300'
             />
-            <h1 className='font-Ysabeau italic font-extralight text-7xl text-stone-300 pt-16 pb-6'>
+            <h1 className='font-Ysabeau italic font-light text-7xl text-stone-300 pt-16 pb-6'>
                Ian B. Fleming
             </h1>
          </div>
-         <h2 className='font-Slabo text-2xl text-stone-300 pb-6 tracking-wider'>
-            Software Engineer
+         <h2 className='text-2xl font-Ysabeau font-extralight text-stone-300 py-8 tracking-wide'>
+            Software Engineer, C.S. Major
          </h2>
          <p className='font-Montserrat w-[720px] text-center border-x-2 border-stone-300 rounded-lg text-md text-stone-300 p-4'>
-            <h2 className='text-xl font-semibold pb-2'>Welcome!</h2>
+            <h2 className='text-xl font-semibold pb-2 tracking-wider'>
+               Welcome!
+            </h2>
             Senior at the University of Idaho pursuing a bachelor's degree in
             Computer Science. With a diverse portfolio encompassing software
             development, general applications, and web development, I am eager
