@@ -9,8 +9,11 @@
 */
 function Footer() {
    return (
-      <div className='bg-stone-950 bg-opacity-20 p-8'>
-         <a href='http://www.linkedin.com/in/ian-fleming-09aa99271'>
+      <div className='bg-stone-950 bg-opacity-20 p-8 flex justify-center'>
+         <a
+            className='px-3'
+            href='http://www.linkedin.com/in/ian-fleming-09aa99271'
+         >
             <svg
                xmlns='http://www.w3.org/2000/svg'
                className='icon icon-tabler icon-tabler-brand-linkedin'
@@ -32,7 +35,7 @@ function Footer() {
             </svg>
          </a>
 
-         <a href='https://github.com/ibfleming'>
+         <a className='px-3' href='https://github.com/ibfleming'>
             <svg
                xmlns='http://www.w3.org/2000/svg'
                className='icon icon-tabler icon-tabler-brand-github'
