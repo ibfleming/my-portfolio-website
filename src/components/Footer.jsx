@@ -1,57 +1,109 @@
-/*
-
-   Add Contact Button
-   Add Copyright, Last Updated
-   Add LinkedIn button
-   Add GitHub
-
-
-*/
 function Footer() {
    return (
-      <div className='bg-stone-950 bg-opacity-20 p-8 flex justify-center'>
-         <a
-            className='px-3'
-            href='http://www.linkedin.com/in/ian-fleming-09aa99271'
-         >
-            <svg
-               xmlns='http://www.w3.org/2000/svg'
-               className='icon icon-tabler icon-tabler-brand-linkedin'
-               width='48'
-               height='48'
-               viewBox='0 0 24 24'
-               strokeWidth='2'
-               stroke='white'
-               fill='none'
-               strokeLinecap='round'
-               strokeLinejoin='round'
-            >
-               <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>
-               <path d='M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z'></path>
-               <path d='M8 11l0 5'></path>
-               <path d='M8 8l0 .01'></path>
-               <path d='M12 16l0 -5'></path>
-               <path d='M16 16v-3a2 2 0 0 0 -4 0'></path>
-            </svg>
-         </a>
+      <div className='container mx-auto'>
+         <div className='p-5 bg-gray-200 rounded-lg py-12 m-5'>
+            <div className='flex flex-col '>
+               <h3 className='text-3xl leading-10 text-slate-700 w-full text-center font-bold'>
+                  Contact Me
+               </h3>
+               <div className='text-base text-slate-800 w-full  md:w-2/4 self-center text-center lg:pt-4'>
+                  Thanks for scrolling this far! Feel free to send me a message
+                  if you have any questions or concerns. Business inquiries
+                  would be wonderful.
+               </div>
+               <div className='text-base text-slate-800 w-full md:w-2/4 self-center text-center lg:pt-4'>
+                  <form
+                     className='flex flex-col items-start'
+                     action='mailto:your-email@example.com'
+                     method='post'
+                     encType='text/plain'
+                  >
+                     <label className='text-slate-700 mt-1' htmlFor='name'>
+                        Name:
+                     </label>
+                     <input
+                        className='border-2 border-gray-300 rounded px-3 py-2 mt-1 mb-5 text-sm w-full'
+                        type='text'
+                        id='name'
+                        name='name'
+                        required
+                     />
 
-         <a className='px-3' href='https://github.com/ibfleming'>
-            <svg
-               xmlns='http://www.w3.org/2000/svg'
-               className='icon icon-tabler icon-tabler-brand-github'
-               width='48'
-               height='48'
-               viewBox='0 0 24 24'
-               strokeWidth='2'
-               stroke='white'
-               fill='none'
-               strokeLinecap='round'
-               strokeLinejoin='round'
-            >
-               <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>
-               <path d='M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5'></path>
-            </svg>
-         </a>
+                     <label className='text-slate-700 mt-1' htmlFor='email'>
+                        Email:
+                     </label>
+                     <input
+                        className='border-2 border-gray-300 rounded px-3 py-2 mt-1 mb-5 text-sm w-full'
+                        type='email'
+                        id='email'
+                        name='email'
+                        placeholder='example@example.com'
+                        required
+                     />
+
+                     <label className='text-slate-700 mt-1' htmlFor='message'>
+                        Message:
+                     </label>
+                     <textarea
+                        className='border-2 border-gray-300 rounded px-3 py-2 mt-1 mb-5 text-sm w-full'
+                        id='message'
+                        name='message'
+                        required
+                     ></textarea>
+
+                     <input
+                        className='bg-gradient-to-tr from-slate-500 to-blue-500 hover:from-blue-500 hover:to-slate-500 text-white font-bold py-2 px-4 rounded self-center cursor-pointer'
+                        type='submit'
+                        value='Send'
+                     />
+                  </form>
+               </div>
+            </div>
+            <div className='font-bold text-slate-700 content-center'>
+               <ul className='flex flex-row space-x-6 justify-center pt-10'>
+                  <li>
+                     <a href='#' className='hover:underline cursor-pointer'>
+                        Home
+                     </a>
+                  </li>
+                  <li>
+                     <a href='#' className='hover:underline cursor-pointer'>
+                        About
+                     </a>
+                  </li>
+                  <li>
+                     <a href='#' className='hover:underline cursor-pointer'>
+                        Portfolio
+                     </a>
+                  </li>
+                  <li>
+                     <a href='#' className='hover:underline cursor-pointer'>
+                        Contact
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+            <div className='flex flex-row justify-center text-xs text-slate-400 pt-10'>
+               Copyright &copy; 2024 Ian B. Fleming
+            </div>
+            {/* <div className=''>
+               <ul className='flex flex-row space-x-4 justify-center'>
+                  <li>
+                     <a href='#' target='_blank' rel='nofollow'></a>
+                  </li>
+                  <li>
+                     <a href='#' target='_blank' rel='nofollow'></a>
+                  </li>
+                  <li>
+                     <a href='#' target='_blank' rel='nofollow'></a>
+                  </li>
+                  <li>
+                     <a href='#' target='_blank' rel='nofollow'></a>
+                  </li>
+               </ul>
+            </div> */}
+         </div>
       </div>
    );
 }
