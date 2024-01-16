@@ -15,7 +15,7 @@ function Intro() {
             </h1>
          </div>
          <div className='flex flex-row items-center justify-center my-8'>
-            <h2 className='bg-gray-200 rounded-md p-4 text-2xl font-Ysabeau border-2 border-slate-800 text-slate-800 '>
+            <h2 className='bg-gray-200 rounded-md p-3 text-2xl font-Ysabeau border-2 border-slate-800 text-slate-800 '>
                Software Engineer / Computer Science
             </h2>
          </div>
@@ -24,7 +24,7 @@ function Intro() {
                <h1 className='text-3xl text-center font-bold italic pb-4 text-slate-800'>
                   Welcome to my portfolio!
                </h1>
-               <div className='text-md w-1/2 self-center text-left text-slate-700 text-lg'>
+               <div className='text-md w-1/2 self-center text-left text-slate-800 text-lg font-serif'>
                   I am a senior at the University of Idaho pursuing a bachelor's
                   degree in Computer Science. With a diverse portfolio
                   encompassing software development, general applications, and
