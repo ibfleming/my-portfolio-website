@@ -21,10 +21,10 @@ function Intro() {
          </div>
          <div className='bg-gray-200 rounded-lg text-center p-8 border-2 border-slate-800'>
             <div className='flex flex-col items-center justify-center'>
-               <h1 className='text-3xl text-center font-bold italic pb-4 text-slate-800'>
+               <h1 className='text-3xl text-center font-bold italic pb-6 text-slate-800'>
                   Welcome to my portfolio!
                </h1>
-               <div className='text-md w-1/2 self-center text-left text-slate-800 text-lg font-serif'>
+               <div className='text-md w-1/2 self-center text-left text-slate-800 text-lg font-serif indent-8'>
                   I am a senior at the University of Idaho pursuing a bachelor's
                   degree in Computer Science. With a diverse portfolio
                   encompassing software development, general applications, and

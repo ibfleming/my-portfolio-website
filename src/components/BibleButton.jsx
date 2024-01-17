@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { TbCross } from 'react-icons/tb';
+import { VscClose } from 'react-icons/vsc';
 import BibleWidget from './BibleWidget';
 
 function BibleButton() {
@@ -8,43 +10,23 @@ function BibleButton() {
       setIsOpen(!isOpen);
    };
 
-   const handleOverlayClick = () => {
-      setIsOpen(false);
-   };
-
-   const handleWidgetClick = (e) => {
-      e.stopPropagation();
-   };
-
    return (
-      <div className='absolute top-5 right-5'>
-         <button onClick={handleClick}>
-            <svg height='50' width='30'>
-               <line
-                  x1='15'
-                  y1='0'
-                  x2='15'
-                  y2='48'
-                  style={{ stroke: '#1E293B', strokeWidth: 5 }}
-               />
-               <line
-                  x1='0'
-                  y1='15'
-                  x2='30'
-                  y2='15'
-                  style={{ stroke: '#1E293B', strokeWidth: 5 }}
-               />
-            </svg>
+      <div className='inline-block absolute top-10 right-10'>
+         <button
+            onClick={handleClick}
+            className='transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
+         >
+            <TbCross size={40} className='text-slate-800' />
          </button>
          {isOpen && (
-            <div
-               onClick={handleOverlayClick}
-               className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-65 flex items-center justify-center'
-            >
-               <div
-                  onClick={handleWidgetClick}
-                  className='bg-gray-200 rounded-lg border-2 border-slate-800 shadow-lg p-8'
-               >
+            <div className='fixed inset-0 bg-black bg-opacity-65 flex items-center justify-center'>
+               <div className='relative bg-white rounded-lg shadow-xlg max-w-lg p-16'>
+                  <button
+                     className='absolute top-0 right-0'
+                     onClick={() => setIsOpen(false)}
+                  >
+                     <VscClose size={20} className=' text-gray-400 m-3' />
+                  </button>
                   <BibleWidget />
                </div>
             </div>
