@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { TbCross } from 'react-icons/tb';
-import { VscClose } from 'react-icons/vsc';
+import { FaTimes } from 'react-icons/fa';
 import BibleWidget from './BibleWidget';
 
 function BibleButton() {
@@ -22,10 +22,10 @@ function BibleButton() {
             <div className='fixed inset-0 bg-black bg-opacity-65 flex items-center justify-center'>
                <div className='relative bg-white rounded-lg shadow-xlg max-w-lg p-16 border-4 border-slate-800'>
                   <button
-                     className='absolute top-0 right-0'
+                     className='absolute top-[40%] right-[-65px] transform -translate-y-1/2 bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition duration-500 ease-in-out hover:scale-110 text-red-400 border-2 border-slate-800'
                      onClick={() => setIsOpen(false)}
                   >
-                     <VscClose size={20} className=' text-gray-400 m-3' />
+                     <FaTimes />
                   </button>
                   <BibleWidget />
                </div>
