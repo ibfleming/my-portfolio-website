@@ -3,8 +3,11 @@ import PortfolioItem from './PortfolioItems';
 
 function Portfolio() {
    return (
-      <div>
-         <div className='text-3xl text-white font-semibold mb-12 text-center'>
+      <div
+         className='container mx-auto w-11/12
+      bg-gray-100 border-2 border-slate-800 rounded-lg p-8 shadow-xl'
+      >
+         <div className='text-3xl leading-10 text-slate-800 w-full text-center font-bold pb-6'>
             Portfolio
          </div>
          <div className='flex flex-col md:flex-row items-center justify-center mb-12'>

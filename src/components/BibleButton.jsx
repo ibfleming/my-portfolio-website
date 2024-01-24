@@ -11,7 +11,7 @@ function BibleButton() {
    };
 
    return (
-      <div className='inline-block fixed top-10 right-10'>
+      <div className='inline-block fixed top-5 right-5'>
          <button
             onClick={handleClick}
             className='transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'

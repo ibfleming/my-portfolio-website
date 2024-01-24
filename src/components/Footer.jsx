@@ -1,7 +1,7 @@
 function Footer() {
    return (
-      <div className='container mx-auto mb-8'>
-         <div className=' bg-gray-200 rounded-lg p-8'>
+      <div className='container mx-auto my-16 w-11/12'>
+         <div className=' bg-gray-100 rounded-lg p-8 shadow-xl border-2 border-slate-800'>
             <div className='flex flex-col'>
                <h3 className='text-3xl leading-10 text-slate-800 w-full text-center font-bold pb-4'>
                   Contact Me!
