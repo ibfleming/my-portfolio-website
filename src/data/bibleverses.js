@@ -64,7 +64,7 @@ export default [
       src: 'Hebrews 3:12 NIV',
    },
    {
-      verse: 'He replied, “Because you have so little faith. Truly I tell you, if you have faith as small as a mustard seed, you can say to this mountain, `Move from here to there,` and it will move. Nothing will be impossible for you.',
+      verse: 'He replied, "Because you have so little faith. Truly I tell you, if you have faith as small as a mustard seed, you can say to this mountain, \'Move from here to there\', and it will move. Nothing will be impossible for you".',
       src: 'Matthew 17:20 NIV',
    },
    {
@@ -72,7 +72,7 @@ export default [
       src: 'Colossians 2:8-10 KJV',
    },
    {
-      verse: 'The apostles said to the Lord, “Increase our faith!',
+      verse: 'The apostles said to the Lord, “Increase our faith!"',
       src: 'Luke 17:5 NIV',
    },
 ];
