@@ -39,4 +39,40 @@ export default [
       verse: 'The fear of the Lord is the beginning of wisdom; all who follow his precepts have good understanding. To him belongs eternal praise.',
       src: 'Psalm 111:10 NIV',
    },
+   {
+      verse: 'Now faith is confidence in what we hope for and assurance about what we do not see.',
+      src: 'Hebrews 11:1 NIV',
+   },
+   {
+      verse: 'And without faith it is impossible to please God, because anyone who comes to him must believe that he exists and that he rewards those who earnestly seek him.',
+      src: 'Hebrews 11:6 NIV',
+   },
+   {
+      verse: 'For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God— not by works, so that no one can boast.',
+      src: 'Ephesians 2:8-9 NIV',
+   },
+   {
+      verse: 'This righteousness is given through faith in Jesus Christ to all who believe. There is no difference between Jew and Gentile, for all have sinned and fall short of the glory of God, and all are justified freely by his grace through the redemption that came by Christ Jesus.',
+      src: 'Romans 3:22-24 NIV',
+   },
+   {
+      verse: 'What good is it, my brothers and sisters, if someone claims to have faith but has no deeds? Can such faith save them?',
+      src: 'James 2:14 NIV',
+   },
+   {
+      verse: 'See to it, brothers and sisters, that none of you has a sinful, unbelieving heart that turns away from the living God.',
+      src: 'Hebrews 3:12 NIV',
+   },
+   {
+      verse: 'He replied, “Because you have so little faith. Truly I tell you, if you have faith as small as a mustard seed, you can say to this mountain, `Move from here to there,` and it will move. Nothing will be impossible for you.',
+      src: 'Matthew 17:20 NIV',
+   },
+   {
+      verse: 'Beware lest any man spoil you through philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ. For in him dwelleth all the fulness of the Godhead bodily. And ye are complete in him, which is the head of all principality and power',
+      src: 'Colossians 2:8-10 KJV',
+   },
+   {
+      verse: 'The apostles said to the Lord, “Increase our faith!',
+      src: 'Luke 17:5 NIV',
+   },
 ];
